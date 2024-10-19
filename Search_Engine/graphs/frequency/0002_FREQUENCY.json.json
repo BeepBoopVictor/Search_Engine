@@ -1,0 +1,2351 @@
+{
+    "machine_info": {
+        "node": "DESKTOP-A6N5TPV",
+        "processor": "Intel64 Family 6 Model 165 Stepping 3, GenuineIntel",
+        "machine": "AMD64",
+        "python_compiler": "MSC v.1935 64 bit (AMD64)",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.12.0",
+        "python_version": "3.12.0",
+        "python_build": [
+            "tags/v3.12.0:0fb18b0",
+            "Oct  2 2023 13:03:39"
+        ],
+        "release": "10",
+        "system": "Windows",
+        "cpu": {
+            "python_version": "3.12.0.final.0 (64 bit)",
+            "cpuinfo_version": [
+                9,
+                0,
+                0
+            ],
+            "cpuinfo_version_string": "9.0.0",
+            "arch": "X86_64",
+            "bits": 64,
+            "count": 12,
+            "arch_string_raw": "AMD64",
+            "vendor_id_raw": "GenuineIntel",
+            "brand_raw": "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+            "hz_advertised_friendly": "2.9000 GHz",
+            "hz_actual_friendly": "2.9010 GHz",
+            "hz_advertised": [
+                2900000000,
+                0
+            ],
+            "hz_actual": [
+                2901000000,
+                0
+            ],
+            "l2_cache_size": 1572864,
+            "stepping": 3,
+            "model": 165,
+            "family": 6,
+            "l3_cache_size": 12582912,
+            "flags": [
+                "3dnow",
+                "3dnowprefetch",
+                "abm",
+                "acpi",
+                "adx",
+                "aes",
+                "apic",
+                "avx",
+                "avx2",
+                "bmi1",
+                "bmi2",
+                "clflush",
+                "clflushopt",
+                "cmov",
+                "cx16",
+                "cx8",
+                "de",
+                "dtes64",
+                "dts",
+                "erms",
+                "est",
+                "f16c",
+                "fma",
+                "fpu",
+                "fxsr",
+                "ht",
+                "hypervisor",
+                "ia64",
+                "invpcid",
+                "lahf_lm",
+                "mca",
+                "mce",
+                "mmx",
+                "movbe",
+                "mpx",
+                "msr",
+                "mtrr",
+                "osxsave",
+                "pae",
+                "pat",
+                "pbe",
+                "pcid",
+                "pclmulqdq",
+                "pdcm",
+                "pge",
+                "pni",
+                "popcnt",
+                "pse",
+                "pse36",
+                "rdrnd",
+                "rdseed",
+                "sep",
+                "serial",
+                "smap",
+                "smep",
+                "ss",
+                "sse",
+                "sse2",
+                "sse4_1",
+                "sse4_2",
+                "ssse3",
+                "tm",
+                "tm2",
+                "tsc",
+                "vme",
+                "x2apic",
+                "xsave",
+                "xtpr"
+            ],
+            "l2_cache_line_size": 256,
+            "l2_cache_associativity": 6
+        }
+    },
+    "commit_info": {
+        "id": "unversioned",
+        "time": null,
+        "author_time": null,
+        "dirty": false,
+        "project": "Search_Engine2",
+        "branch": "(unknown)"
+    },
+    "benchmarks": [
+        {
+            "group": "query_txt_freq",
+            "name": "test_txt_query_II_freq[Project]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_freq[Project]",
+            "params": {
+                "word": "Project"
+            },
+            "param": "Project",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.025465199985774234,
+                "max": 0.04953780001960695,
+                "mean": 0.02734122820532857,
+                "stddev": 0.0042829972574373884,
+                "rounds": 39,
+                "median": 0.026361900003394112,
+                "iqr": 0.001062025003193412,
+                "q1": 0.025901425004121847,
+                "q3": 0.02696345000731526,
+                "iqr_outliers": 3,
+                "stddev_outliers": 2,
+                "outliers": "2;3",
+                "ld15iqr": 0.025465199985774234,
+                "hd15iqr": 0.028605999978026375,
+                "ops": 36.57480170569326,
+                "total": 1.0663079000078142,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_freq",
+            "name": "test_txt_query_II_freq[Gutenberg]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_freq[Gutenberg]",
+            "params": {
+                "word": "Gutenberg"
+            },
+            "param": "Gutenberg",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.024227899994002655,
+                "max": 0.03649489997769706,
+                "mean": 0.02556192194943589,
+                "stddev": 0.0020433840968165206,
+                "rounds": 41,
+                "median": 0.025088900001719594,
+                "iqr": 0.0006471249944297597,
+                "q1": 0.02471854999748757,
+                "q3": 0.02536567499191733,
+                "iqr_outliers": 5,
+                "stddev_outliers": 3,
+                "outliers": "3;5",
+                "ld15iqr": 0.024227899994002655,
+                "hd15iqr": 0.02722009998979047,
+                "ops": 39.12068904592162,
+                "total": 1.0480387999268714,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_freq",
+            "name": "test_txt_query_II_freq[1]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_freq[1]",
+            "params": {
+                "word": "1"
+            },
+            "param": "1",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.023598100000526756,
+                "max": 0.041652899992186576,
+                "mean": 0.025544846343109384,
+                "stddev": 0.0026929884629745935,
+                "rounds": 41,
+                "median": 0.025103899999521673,
+                "iqr": 0.0010355250051361509,
+                "q1": 0.024555500007409137,
+                "q3": 0.025591025012545288,
+                "iqr_outliers": 2,
+                "stddev_outliers": 1,
+                "outliers": "1;2",
+                "ld15iqr": 0.023598100000526756,
+                "hd15iqr": 0.02725089999148622,
+                "ops": 39.1468395060339,
+                "total": 1.0473387000674848,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_freq",
+            "name": "test_txt_query_II_freq[work]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_freq[work]",
+            "params": {
+                "word": "work"
+            },
+            "param": "work",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.024905300000682473,
+                "max": 0.03086629998870194,
+                "mean": 0.02724023243314838,
+                "stddev": 0.0013588779957597204,
+                "rounds": 37,
+                "median": 0.027017299988074228,
+                "iqr": 0.0015229500058921985,
+                "q1": 0.026231975003611296,
+                "q3": 0.027754925009503495,
+                "iqr_outliers": 2,
+                "stddev_outliers": 9,
+                "outliers": "9;2",
+                "ld15iqr": 0.024905300000682473,
+                "hd15iqr": 0.030645999999251217,
+                "ops": 36.71040628798414,
+                "total": 1.0078886000264902,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_freq",
+            "name": "test_txt_query_II_freq[works]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_freq[works]",
+            "params": {
+                "word": "works"
+            },
+            "param": "works",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.024632000015117228,
+                "max": 0.0304469000257086,
+                "mean": 0.025835710002866108,
+                "stddev": 0.001032059850044657,
+                "rounds": 40,
+                "median": 0.025572700003976934,
+                "iqr": 0.0008575000101700425,
+                "q1": 0.025236799992853776,
+                "q3": 0.026094300003023818,
+                "iqr_outliers": 2,
+                "stddev_outliers": 6,
+                "outliers": "6;2",
+                "ld15iqr": 0.024632000015117228,
+                "hd15iqr": 0.027820700022857636,
+                "ops": 38.70611645234693,
+                "total": 1.0334284001146443,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_freq",
+            "name": "test_txt_query_II_freq[electronic]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_freq[electronic]",
+            "params": {
+                "word": "electronic"
+            },
+            "param": "electronic",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.02446109999436885,
+                "max": 0.03629190000356175,
+                "mean": 0.02610130975428946,
+                "stddev": 0.0022108460542527796,
+                "rounds": 41,
+                "median": 0.025397000019438565,
+                "iqr": 0.0012691249867202714,
+                "q1": 0.02502219999587396,
+                "q3": 0.026291324982594233,
+                "iqr_outliers": 3,
+                "stddev_outliers": 3,
+                "outliers": "3;3",
+                "ld15iqr": 0.02446109999436885,
+                "hd15iqr": 0.03122189998975955,
+                "ops": 38.31225365369495,
+                "total": 1.0701536999258678,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_freq",
+            "name": "test_txt_query_II_freq[Foundation]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_freq[Foundation]",
+            "params": {
+                "word": "Foundation"
+            },
+            "param": "Foundation",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.024443200003588572,
+                "max": 0.035178599995560944,
+                "mean": 0.025661012820469644,
+                "stddev": 0.0017370094696821084,
+                "rounds": 39,
+                "median": 0.02516360001754947,
+                "iqr": 0.0008445750208920799,
+                "q1": 0.02490044999285601,
+                "q3": 0.02574502501374809,
+                "iqr_outliers": 3,
+                "stddev_outliers": 1,
+                "outliers": "1;3",
+                "ld15iqr": 0.024443200003588572,
+                "hd15iqr": 0.027035700011765584,
+                "ops": 38.96962317879775,
+                "total": 1.0007794999983162,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_freq",
+            "name": "test_txt_query_II_freq[States]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_freq[States]",
+            "params": {
+                "word": "States"
+            },
+            "param": "States",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.023734899994451553,
+                "max": 0.026892799971392378,
+                "mean": 0.02468092619355524,
+                "stddev": 0.0005978932171184197,
+                "rounds": 42,
+                "median": 0.024534049996873364,
+                "iqr": 0.0005591000081039965,
+                "q1": 0.024316900002304465,
+                "q3": 0.02487600001040846,
+                "iqr_outliers": 2,
+                "stddev_outliers": 10,
+                "outliers": "10;2",
+                "ld15iqr": 0.023734899994451553,
+                "hd15iqr": 0.02615779999177903,
+                "ops": 40.51711804320873,
+                "total": 1.03659890012932,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_freq",
+            "name": "test_txt_query_II_freq[E]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_freq[E]",
+            "params": {
+                "word": "E"
+            },
+            "param": "E",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.022917999973287806,
+                "max": 0.025753699999768287,
+                "mean": 0.023954422500537476,
+                "stddev": 0.0007325306846212511,
+                "rounds": 40,
+                "median": 0.023761350006680004,
+                "iqr": 0.000904949993127957,
+                "q1": 0.023436100003891625,
+                "q3": 0.02434104999701958,
+                "iqr_outliers": 1,
+                "stddev_outliers": 10,
+                "outliers": "10;1",
+                "ld15iqr": 0.022917999973287806,
+                "hd15iqr": 0.025753699999768287,
+                "ops": 41.74594482407424,
+                "total": 0.958176900021499,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_freq",
+            "name": "test_txt_query_II_freq[United]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_freq[United]",
+            "params": {
+                "word": "United"
+            },
+            "param": "United",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.02293969999300316,
+                "max": 0.04585750002297573,
+                "mean": 0.024236702325017474,
+                "stddev": 0.0036107050632635967,
+                "rounds": 43,
+                "median": 0.02341100000194274,
+                "iqr": 0.0005059750183136202,
+                "q1": 0.023244549993250985,
+                "q3": 0.023750525011564605,
+                "iqr_outliers": 4,
+                "stddev_outliers": 2,
+                "outliers": "2;4",
+                "ld15iqr": 0.02293969999300316,
+                "hd15iqr": 0.024523800006136298,
+                "ops": 41.25973849865646,
+                "total": 1.0421781999757513,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_freq",
+            "name": "test_mongo_query_II_freq[Project]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_freq[Project]",
+            "params": {
+                "word": "Project"
+            },
+            "param": "Project",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0002429999876767397,
+                "max": 0.00043719998211599886,
+                "mean": 0.0002682940779011819,
+                "stddev": 3.027697268825227e-05,
+                "rounds": 152,
+                "median": 0.00025460000324528664,
+                "iqr": 3.1750008929520845e-05,
+                "q1": 0.00024754999321885407,
+                "q3": 0.0002793000021483749,
+                "iqr_outliers": 7,
+                "stddev_outliers": 14,
+                "outliers": "14;7",
+                "ld15iqr": 0.0002429999876767397,
+                "hd15iqr": 0.0003448000061325729,
+                "ops": 3727.2533476058316,
+                "total": 0.04078069984097965,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_freq",
+            "name": "test_mongo_query_II_freq[Gutenberg]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_freq[Gutenberg]",
+            "params": {
+                "word": "Gutenberg"
+            },
+            "param": "Gutenberg",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0002403999969828874,
+                "max": 0.0004797999863512814,
+                "mean": 0.0002559027703097127,
+                "stddev": 2.0713653794455297e-05,
+                "rounds": 1516,
+                "median": 0.0002506500022718683,
+                "iqr": 1.0100018698722124e-05,
+                "q1": 0.00024649998522363603,
+                "q3": 0.00025660000392235816,
+                "iqr_outliers": 131,
+                "stddev_outliers": 117,
+                "outliers": "117;131",
+                "ld15iqr": 0.0002403999969828874,
+                "hd15iqr": 0.00027200000477023423,
+                "ops": 3907.734171028024,
+                "total": 0.38794859978952445,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_freq",
+            "name": "test_mongo_query_II_freq[1]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_freq[1]",
+            "params": {
+                "word": "1"
+            },
+            "param": "1",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024080000002868474,
+                "max": 0.00042570001096464694,
+                "mean": 0.0002576323095224151,
+                "stddev": 2.2146153244499062e-05,
+                "rounds": 1498,
+                "median": 0.00025079998886212707,
+                "iqr": 1.1600001016631722e-05,
+                "q1": 0.00024560000747442245,
+                "q3": 0.0002572000084910542,
+                "iqr_outliers": 186,
+                "stddev_outliers": 164,
+                "outliers": "164;186",
+                "ld15iqr": 0.00024080000002868474,
+                "hd15iqr": 0.00027469999622553587,
+                "ops": 3881.5007397703575,
+                "total": 0.38593319966457784,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_freq",
+            "name": "test_mongo_query_II_freq[work]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_freq[work]",
+            "params": {
+                "word": "work"
+            },
+            "param": "work",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024160000612027943,
+                "max": 0.0003725999849848449,
+                "mean": 0.0002575404748470538,
+                "stddev": 1.6540505119677352e-05,
+                "rounds": 1475,
+                "median": 0.0002525000018067658,
+                "iqr": 8.399976650252938e-06,
+                "q1": 0.0002497000095900148,
+                "q3": 0.00025809998624026775,
+                "iqr_outliers": 154,
+                "stddev_outliers": 143,
+                "outliers": "143;154",
+                "ld15iqr": 0.00024160000612027943,
+                "hd15iqr": 0.00027069999487139285,
+                "ops": 3882.8848187605167,
+                "total": 0.3798722003994044,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_freq",
+            "name": "test_mongo_query_II_freq[works]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_freq[works]",
+            "params": {
+                "word": "works"
+            },
+            "param": "works",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024130000383593142,
+                "max": 0.0005468000017572194,
+                "mean": 0.0002596942720107106,
+                "stddev": 2.938883314710634e-05,
+                "rounds": 1554,
+                "median": 0.0002502999850548804,
+                "iqr": 1.1500029359012842e-05,
+                "q1": 0.000245599978370592,
+                "q3": 0.00025710000772960484,
+                "iqr_outliers": 224,
+                "stddev_outliers": 153,
+                "outliers": "153;224",
+                "ld15iqr": 0.00024130000383593142,
+                "hd15iqr": 0.00027439999394118786,
+                "ops": 3850.6817738311797,
+                "total": 0.4035648987046443,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_freq",
+            "name": "test_mongo_query_II_freq[electronic]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_freq[electronic]",
+            "params": {
+                "word": "electronic"
+            },
+            "param": "electronic",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024160000612027943,
+                "max": 0.0005741000059060752,
+                "mean": 0.00026158195819748055,
+                "stddev": 2.571328332329607e-05,
+                "rounds": 1430,
+                "median": 0.0002536000101827085,
+                "iqr": 1.170000177808106e-05,
+                "q1": 0.00024930000654421747,
+                "q3": 0.0002610000083222985,
+                "iqr_outliers": 188,
+                "stddev_outliers": 149,
+                "outliers": "149;188",
+                "ld15iqr": 0.00024160000612027943,
+                "hd15iqr": 0.00027859999681822956,
+                "ops": 3822.8936234396288,
+                "total": 0.3740622002223972,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_freq",
+            "name": "test_mongo_query_II_freq[Foundation]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_freq[Foundation]",
+            "params": {
+                "word": "Foundation"
+            },
+            "param": "Foundation",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024140000459738076,
+                "max": 0.00048499999684281647,
+                "mean": 0.00026606346688155705,
+                "stddev": 2.9755344698123508e-05,
+                "rounds": 1500,
+                "median": 0.0002552999940235168,
+                "iqr": 1.580000389367342e-05,
+                "q1": 0.00025049998657777905,
+                "q3": 0.0002662999904714525,
+                "iqr_outliers": 220,
+                "stddev_outliers": 191,
+                "outliers": "191;220",
+                "ld15iqr": 0.00024140000459738076,
+                "hd15iqr": 0.00029039999935775995,
+                "ops": 3758.501727879717,
+                "total": 0.3990952003223356,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_freq",
+            "name": "test_mongo_query_II_freq[States]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_freq[States]",
+            "params": {
+                "word": "States"
+            },
+            "param": "States",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024229998234659433,
+                "max": 0.00044440000783652067,
+                "mean": 0.0002673552247694014,
+                "stddev": 2.93867925181194e-05,
+                "rounds": 1445,
+                "median": 0.00025680000544525683,
+                "iqr": 1.7450009181629866e-05,
+                "q1": 0.00025129999266937375,
+                "q3": 0.0002687500018510036,
+                "iqr_outliers": 193,
+                "stddev_outliers": 185,
+                "outliers": "185;193",
+                "ld15iqr": 0.00024229998234659433,
+                "hd15iqr": 0.00029510000604204834,
+                "ops": 3740.342089302791,
+                "total": 0.38632829979178496,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_freq",
+            "name": "test_mongo_query_II_freq[E]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_freq[E]",
+            "params": {
+                "word": "E"
+            },
+            "param": "E",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024090000079013407,
+                "max": 0.0005006999999750406,
+                "mean": 0.0002620078610602934,
+                "stddev": 2.5725036495261252e-05,
+                "rounds": 1463,
+                "median": 0.0002528000040911138,
+                "iqr": 1.4375000318977982e-05,
+                "q1": 0.00024819999816827476,
+                "q3": 0.00026257499848725274,
+                "iqr_outliers": 194,
+                "stddev_outliers": 166,
+                "outliers": "166;194",
+                "ld15iqr": 0.00024090000079013407,
+                "hd15iqr": 0.0002841999812517315,
+                "ops": 3816.67937730265,
+                "total": 0.3833175007312093,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_freq",
+            "name": "test_mongo_query_II_freq[United]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_freq[United]",
+            "params": {
+                "word": "United"
+            },
+            "param": "United",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0002491000050213188,
+                "max": 0.000661000027321279,
+                "mean": 0.0002912821765484574,
+                "stddev": 4.9385021433849665e-05,
+                "rounds": 1571,
+                "median": 0.0002762000076472759,
+                "iqr": 4.389997775433585e-05,
+                "q1": 0.0002590000003692694,
+                "q3": 0.00030289997812360525,
+                "iqr_outliers": 104,
+                "stddev_outliers": 182,
+                "outliers": "182;104",
+                "ld15iqr": 0.0002491000050213188,
+                "hd15iqr": 0.00037020002491772175,
+                "ops": 3433.0971151392814,
+                "total": 0.4576042993576266,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_freq",
+            "name": "test_neo_query_II_freq[Project]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_freq[Project]",
+            "params": {
+                "word": "Project"
+            },
+            "param": "Project",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.002381400001468137,
+                "max": 0.00301059999037534,
+                "mean": 0.002695159992435947,
+                "stddev": 0.0002795550061660982,
+                "rounds": 5,
+                "median": 0.002677999989828095,
+                "iqr": 0.0005157999985385686,
+                "q1": 0.0024432749924017116,
+                "q3": 0.0029590749909402803,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.002381400001468137,
+                "hd15iqr": 0.00301059999037534,
+                "ops": 371.03548687518816,
+                "total": 0.013475799962179735,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_freq",
+            "name": "test_neo_query_II_freq[Gutenberg]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_freq[Gutenberg]",
+            "params": {
+                "word": "Gutenberg"
+            },
+            "param": "Gutenberg",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0028255000070203096,
+                "max": 0.004313199984608218,
+                "mean": 0.0031944413940884083,
+                "stddev": 0.00026970396010588476,
+                "rounds": 244,
+                "median": 0.003097900000284426,
+                "iqr": 0.0003281499957665801,
+                "q1": 0.00299510000331793,
+                "q3": 0.00332324999908451,
+                "iqr_outliers": 9,
+                "stddev_outliers": 52,
+                "outliers": "52;9",
+                "ld15iqr": 0.0028255000070203096,
+                "hd15iqr": 0.003819300007307902,
+                "ops": 313.043777184514,
+                "total": 0.7794437001575716,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_freq",
+            "name": "test_neo_query_II_freq[1]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_freq[1]",
+            "params": {
+                "word": "1"
+            },
+            "param": "1",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.004368900001281872,
+                "max": 0.011069899977883324,
+                "mean": 0.0047974517580938415,
+                "stddev": 0.0005932034715837487,
+                "rounds": 199,
+                "median": 0.004718599986517802,
+                "iqr": 0.00027419998514233157,
+                "q1": 0.004579525004373863,
+                "q3": 0.004853724989516195,
+                "iqr_outliers": 8,
+                "stddev_outliers": 4,
+                "outliers": "4;8",
+                "ld15iqr": 0.004368900001281872,
+                "hd15iqr": 0.00526859998353757,
+                "ops": 208.44399285785153,
+                "total": 0.9546928998606745,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_freq",
+            "name": "test_neo_query_II_freq[work]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_freq[work]",
+            "params": {
+                "word": "work"
+            },
+            "param": "work",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.004318699997384101,
+                "max": 0.010320399975171313,
+                "mean": 0.004758632273589403,
+                "stddev": 0.0004887432898175734,
+                "rounds": 189,
+                "median": 0.004686600004788488,
+                "iqr": 0.00027012497594114393,
+                "q1": 0.004548800010525156,
+                "q3": 0.0048189249864663,
+                "iqr_outliers": 14,
+                "stddev_outliers": 13,
+                "outliers": "13;14",
+                "ld15iqr": 0.004318699997384101,
+                "hd15iqr": 0.005225200002314523,
+                "ops": 210.1444159806252,
+                "total": 0.8993814997083973,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_freq",
+            "name": "test_neo_query_II_freq[works]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_freq[works]",
+            "params": {
+                "word": "works"
+            },
+            "param": "works",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.003908099984982982,
+                "max": 0.005646699981298298,
+                "mean": 0.004233698165572864,
+                "stddev": 0.0002599969305657284,
+                "rounds": 218,
+                "median": 0.0041631000058259815,
+                "iqr": 0.00027359998784959316,
+                "q1": 0.004061400017235428,
+                "q3": 0.004335000005085021,
+                "iqr_outliers": 10,
+                "stddev_outliers": 38,
+                "outliers": "38;10",
+                "ld15iqr": 0.003908099984982982,
+                "hd15iqr": 0.004796699999133125,
+                "ops": 236.20011651555456,
+                "total": 0.9229462000948843,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_freq",
+            "name": "test_neo_query_II_freq[electronic]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_freq[electronic]",
+            "params": {
+                "word": "electronic"
+            },
+            "param": "electronic",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0036546000046655536,
+                "max": 0.006158899981528521,
+                "mean": 0.004173187280238173,
+                "stddev": 0.0003869141236445809,
+                "rounds": 228,
+                "median": 0.004068749985890463,
+                "iqr": 0.0004371499962871894,
+                "q1": 0.0038988999876892194,
+                "q3": 0.004336049983976409,
+                "iqr_outliers": 8,
+                "stddev_outliers": 43,
+                "outliers": "43;8",
+                "ld15iqr": 0.0036546000046655536,
+                "hd15iqr": 0.005055700021330267,
+                "ops": 239.6249995142628,
+                "total": 0.9514866998943035,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_freq",
+            "name": "test_neo_query_II_freq[Foundation]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_freq[Foundation]",
+            "params": {
+                "word": "Foundation"
+            },
+            "param": "Foundation",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0008209999941755086,
+                "max": 0.0037172000156715512,
+                "mean": 0.0009717650925128095,
+                "stddev": 0.00020757549617145347,
+                "rounds": 593,
+                "median": 0.0009136000007856637,
+                "iqr": 0.00013457499881042168,
+                "q1": 0.0008680750033818185,
+                "q3": 0.0010026500021922402,
+                "iqr_outliers": 40,
+                "stddev_outliers": 42,
+                "outliers": "42;40",
+                "ld15iqr": 0.0008209999941755086,
+                "hd15iqr": 0.0012097999860998243,
+                "ops": 1029.05528064831,
+                "total": 0.576256699860096,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_freq",
+            "name": "test_neo_query_II_freq[States]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_freq[States]",
+            "params": {
+                "word": "States"
+            },
+            "param": "States",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.002500700007658452,
+                "max": 0.0053050999995321035,
+                "mean": 0.0029909513612771978,
+                "stddev": 0.00039957118630219783,
+                "rounds": 294,
+                "median": 0.0029211499786470085,
+                "iqr": 0.000458399998024106,
+                "q1": 0.0026935999921988696,
+                "q3": 0.0031519999902229756,
+                "iqr_outliers": 8,
+                "stddev_outliers": 39,
+                "outliers": "39;8",
+                "ld15iqr": 0.002500700007658452,
+                "hd15iqr": 0.0038531000027433038,
+                "ops": 334.34177932367965,
+                "total": 0.8793397002154961,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_freq",
+            "name": "test_neo_query_II_freq[E]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_freq[E]",
+            "params": {
+                "word": "E"
+            },
+            "param": "E",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.002617099991766736,
+                "max": 0.009093600005144253,
+                "mean": 0.004424473939632827,
+                "stddev": 0.00118583060189634,
+                "rounds": 165,
+                "median": 0.004113700008019805,
+                "iqr": 0.0014004999902681448,
+                "q1": 0.0036489749982138164,
+                "q3": 0.005049474988481961,
+                "iqr_outliers": 6,
+                "stddev_outliers": 52,
+                "outliers": "52;6",
+                "ld15iqr": 0.002617099991766736,
+                "hd15iqr": 0.007170199998654425,
+                "ops": 226.01557013193454,
+                "total": 0.7300382000394166,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_freq",
+            "name": "test_neo_query_II_freq[United]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_freq[United]",
+            "params": {
+                "word": "United"
+            },
+            "param": "United",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0008032000041566789,
+                "max": 0.0048151999944821,
+                "mean": 0.001122447465302869,
+                "stddev": 0.00040748981065639084,
+                "rounds": 651,
+                "median": 0.0009897999989334494,
+                "iqr": 0.0003585250015021302,
+                "q1": 0.0008690499817021191,
+                "q3": 0.0012275749832042493,
+                "iqr_outliers": 40,
+                "stddev_outliers": 64,
+                "outliers": "64;40",
+                "ld15iqr": 0.0008032000041566789,
+                "hd15iqr": 0.0017779000045266002,
+                "ops": 890.9102928306501,
+                "total": 0.7307132999121677,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_unfreq",
+            "name": "test_txt_query_II_unfreq[With]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_unfreq[With]",
+            "params": {
+                "word": "With"
+            },
+            "param": "With",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.02343030000338331,
+                "max": 0.03965800002333708,
+                "mean": 0.02574952250070055,
+                "stddev": 0.0032453525397670383,
+                "rounds": 40,
+                "median": 0.024732999998377636,
+                "iqr": 0.001363100003800355,
+                "q1": 0.024366049998207018,
+                "q3": 0.025729150002007373,
+                "iqr_outliers": 3,
+                "stddev_outliers": 3,
+                "outliers": "3;3",
+                "ld15iqr": 0.02343030000338331,
+                "hd15iqr": 0.03360289998818189,
+                "ops": 38.83567161188304,
+                "total": 1.029980900028022,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_unfreq",
+            "name": "test_txt_query_II_unfreq[conscience]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_unfreq[conscience]",
+            "params": {
+                "word": "conscience"
+            },
+            "param": "conscience",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.023879699991084635,
+                "max": 0.045911399996839464,
+                "mean": 0.028752968291661178,
+                "stddev": 0.005694002159553458,
+                "rounds": 41,
+                "median": 0.026472500001545995,
+                "iqr": 0.006426375002774876,
+                "q1": 0.024745925002207514,
+                "q3": 0.03117230000498239,
+                "iqr_outliers": 3,
+                "stddev_outliers": 7,
+                "outliers": "7;3",
+                "ld15iqr": 0.023879699991084635,
+                "hd15iqr": 0.04100070000276901,
+                "ops": 34.77901793847197,
+                "total": 1.1788716999581084,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_unfreq",
+            "name": "test_txt_query_II_unfreq[sure]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_unfreq[sure]",
+            "params": {
+                "word": "sure"
+            },
+            "param": "sure",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.02347139999619685,
+                "max": 0.0291432999947574,
+                "mean": 0.024626534146103416,
+                "stddev": 0.0009018695380857271,
+                "rounds": 41,
+                "median": 0.024381800001719967,
+                "iqr": 0.000592349999351427,
+                "q1": 0.024225799999840092,
+                "q3": 0.02481814999919152,
+                "iqr_outliers": 3,
+                "stddev_outliers": 5,
+                "outliers": "5;3",
+                "ld15iqr": 0.02347139999619685,
+                "hd15iqr": 0.025940699997590855,
+                "ops": 40.60660725001886,
+                "total": 1.0096878999902401,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_unfreq",
+            "name": "test_txt_query_II_unfreq[reward]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_unfreq[reward]",
+            "params": {
+                "word": "reward"
+            },
+            "param": "reward",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.02316640000208281,
+                "max": 0.04448630000115372,
+                "mean": 0.025741081397173668,
+                "stddev": 0.004070349694865889,
+                "rounds": 43,
+                "median": 0.024686899996595457,
+                "iqr": 0.0012288499929127283,
+                "q1": 0.02412440000625793,
+                "q3": 0.025353249999170657,
+                "iqr_outliers": 4,
+                "stddev_outliers": 3,
+                "outliers": "3;4",
+                "ld15iqr": 0.02316640000208281,
+                "hd15iqr": 0.027466800005640835,
+                "ops": 38.848406738257644,
+                "total": 1.1068665000784677,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_unfreq",
+            "name": "test_txt_query_II_unfreq[judge]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_unfreq[judge]",
+            "params": {
+                "word": "judge"
+            },
+            "param": "judge",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.02540819998830557,
+                "max": 0.04987669998081401,
+                "mean": 0.02945839999761359,
+                "stddev": 0.005162897768643897,
+                "rounds": 38,
+                "median": 0.027798049995908514,
+                "iqr": 0.003296399983810261,
+                "q1": 0.026755300001241267,
+                "q3": 0.030051699985051528,
+                "iqr_outliers": 3,
+                "stddev_outliers": 3,
+                "outliers": "3;3",
+                "ld15iqr": 0.02540819998830557,
+                "hd15iqr": 0.04081830001086928,
+                "ops": 33.94617494775716,
+                "total": 1.1194191999093164,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_unfreq",
+            "name": "test_txt_query_II_unfreq[lead]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_unfreq[lead]",
+            "params": {
+                "word": "lead"
+            },
+            "param": "lead",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.025386399996932596,
+                "max": 0.04659050001646392,
+                "mean": 0.0300950257140877,
+                "stddev": 0.00499579667128735,
+                "rounds": 35,
+                "median": 0.02827640000032261,
+                "iqr": 0.005877474999579135,
+                "q1": 0.02693432500382187,
+                "q3": 0.032811800003401004,
+                "iqr_outliers": 1,
+                "stddev_outliers": 5,
+                "outliers": "5;1",
+                "ld15iqr": 0.025386399996932596,
+                "hd15iqr": 0.04659050001646392,
+                "ops": 33.22808259080147,
+                "total": 1.0533258999930695,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_unfreq",
+            "name": "test_txt_query_II_unfreq[love]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_unfreq[love]",
+            "params": {
+                "word": "love"
+            },
+            "param": "love",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.024303800018969923,
+                "max": 0.04876150001655333,
+                "mean": 0.02637865897775508,
+                "stddev": 0.0039501649944110335,
+                "rounds": 39,
+                "median": 0.0255415000137873,
+                "iqr": 0.0009606749954400584,
+                "q1": 0.02507760000298731,
+                "q3": 0.02603827499842737,
+                "iqr_outliers": 3,
+                "stddev_outliers": 2,
+                "outliers": "2;3",
+                "ld15iqr": 0.024303800018969923,
+                "hd15iqr": 0.028143500006990507,
+                "ops": 37.90943280487807,
+                "total": 1.0287677001324482,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_unfreq",
+            "name": "test_txt_query_II_unfreq[asking]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_unfreq[asking]",
+            "params": {
+                "word": "asking"
+            },
+            "param": "asking",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.025046199996722862,
+                "max": 0.04481089999899268,
+                "mean": 0.030074374358474206,
+                "stddev": 0.004615390462663708,
+                "rounds": 39,
+                "median": 0.027971599978627637,
+                "iqr": 0.006729225002345629,
+                "q1": 0.026001374986662995,
+                "q3": 0.032730599989008624,
+                "iqr_outliers": 1,
+                "stddev_outliers": 9,
+                "outliers": "9;1",
+                "ld15iqr": 0.025046199996722862,
+                "hd15iqr": 0.04481089999899268,
+                "ops": 33.25089952264377,
+                "total": 1.172900599980494,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_unfreq",
+            "name": "test_txt_query_II_unfreq[blessing]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_unfreq[blessing]",
+            "params": {
+                "word": "blessing"
+            },
+            "param": "blessing",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.024836900003720075,
+                "max": 0.04589159999159165,
+                "mean": 0.027411806896923047,
+                "stddev": 0.00485824679516124,
+                "rounds": 29,
+                "median": 0.025540200003888458,
+                "iqr": 0.0017032500109053217,
+                "q1": 0.02503992499987362,
+                "q3": 0.02674317501077894,
+                "iqr_outliers": 4,
+                "stddev_outliers": 3,
+                "outliers": "3;4",
+                "ld15iqr": 0.024836900003720075,
+                "hd15iqr": 0.030351599998539314,
+                "ops": 36.48063054581963,
+                "total": 0.7949424000107683,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_txt_unfreq",
+            "name": "test_txt_query_II_unfreq[knowing]",
+            "fullname": "tests/freq_test.py::test_txt_query_II_unfreq[knowing]",
+            "params": {
+                "word": "knowing"
+            },
+            "param": "knowing",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.026029300002846867,
+                "max": 0.07780389999970794,
+                "mean": 0.0355343111101926,
+                "stddev": 0.011847755343651277,
+                "rounds": 36,
+                "median": 0.03117799999017734,
+                "iqr": 0.009515500016277656,
+                "q1": 0.02809779999370221,
+                "q3": 0.037613300009979866,
+                "iqr_outliers": 4,
+                "stddev_outliers": 6,
+                "outliers": "6;4",
+                "ld15iqr": 0.026029300002846867,
+                "hd15iqr": 0.05654639998101629,
+                "ops": 28.141814735031172,
+                "total": 1.2792351999669336,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_unfreq",
+            "name": "test_mongo_query_II_unfreq[With]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_unfreq[With]",
+            "params": {
+                "word": "With"
+            },
+            "param": "With",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024659998598508537,
+                "max": 0.0006468000065069646,
+                "mean": 0.0002962103252150884,
+                "stddev": 4.7039425620521e-05,
+                "rounds": 1046,
+                "median": 0.0002843999973265454,
+                "iqr": 5.699999746866524e-05,
+                "q1": 0.0002595999976620078,
+                "q3": 0.00031659999513067305,
+                "iqr_outliers": 36,
+                "stddev_outliers": 136,
+                "outliers": "136;36",
+                "ld15iqr": 0.00024659998598508537,
+                "hd15iqr": 0.00040259998058900237,
+                "ops": 3375.97954856525,
+                "total": 0.3098360001749825,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_unfreq",
+            "name": "test_mongo_query_II_unfreq[conscience]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_unfreq[conscience]",
+            "params": {
+                "word": "conscience"
+            },
+            "param": "conscience",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0002474999928381294,
+                "max": 0.0010273999942000955,
+                "mean": 0.00030633156038373737,
+                "stddev": 5.7984323682675266e-05,
+                "rounds": 1448,
+                "median": 0.0002935999946203083,
+                "iqr": 6.560000474564731e-05,
+                "q1": 0.00026185000024270266,
+                "q3": 0.00032745000498835,
+                "iqr_outliers": 64,
+                "stddev_outliers": 208,
+                "outliers": "208;64",
+                "ld15iqr": 0.0002474999928381294,
+                "hd15iqr": 0.0004259999841451645,
+                "ops": 3264.4367388959654,
+                "total": 0.4435680994356517,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_unfreq",
+            "name": "test_mongo_query_II_unfreq[sure]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_unfreq[sure]",
+            "params": {
+                "word": "sure"
+            },
+            "param": "sure",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0002460000105202198,
+                "max": 0.0004958999925293028,
+                "mean": 0.0002769559208580346,
+                "stddev": 3.197514130063792e-05,
+                "rounds": 1461,
+                "median": 0.0002638000005390495,
+                "iqr": 3.6900019040331244e-05,
+                "q1": 0.00025439998717047274,
+                "q3": 0.000291300006210804,
+                "iqr_outliers": 65,
+                "stddev_outliers": 212,
+                "outliers": "212;65",
+                "ld15iqr": 0.0002460000105202198,
+                "hd15iqr": 0.00034669999149627984,
+                "ops": 3610.6828729348313,
+                "total": 0.4046326003735885,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_unfreq",
+            "name": "test_mongo_query_II_unfreq[reward]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_unfreq[reward]",
+            "params": {
+                "word": "reward"
+            },
+            "param": "reward",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0002469999890308827,
+                "max": 0.0005230999959167093,
+                "mean": 0.00029016852327543545,
+                "stddev": 3.9639636491461083e-05,
+                "rounds": 413,
+                "median": 0.0002789999998640269,
+                "iqr": 5.0475005991756916e-05,
+                "q1": 0.0002586999908089638,
+                "q3": 0.0003091749968007207,
+                "iqr_outliers": 14,
+                "stddev_outliers": 92,
+                "outliers": "92;14",
+                "ld15iqr": 0.0002469999890308827,
+                "hd15iqr": 0.0003859999997075647,
+                "ops": 3446.2731819149594,
+                "total": 0.11983960011275485,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_unfreq",
+            "name": "test_mongo_query_II_unfreq[judge]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_unfreq[judge]",
+            "params": {
+                "word": "judge"
+            },
+            "param": "judge",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0002510999911464751,
+                "max": 0.0011781999783124775,
+                "mean": 0.00036482984621006133,
+                "stddev": 0.00013520903413161148,
+                "rounds": 650,
+                "median": 0.00032130000181496143,
+                "iqr": 0.00010470001143403351,
+                "q1": 0.00028139998903498054,
+                "q3": 0.00038610000046901405,
+                "iqr_outliers": 60,
+                "stddev_outliers": 78,
+                "outliers": "78;60",
+                "ld15iqr": 0.0002510999911464751,
+                "hd15iqr": 0.0005436000064946711,
+                "ops": 2741.0038142115736,
+                "total": 0.23713940003653988,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_unfreq",
+            "name": "test_mongo_query_II_unfreq[lead]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_unfreq[lead]",
+            "params": {
+                "word": "lead"
+            },
+            "param": "lead",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024759999359957874,
+                "max": 0.028936299990164116,
+                "mean": 0.00030051929677483714,
+                "stddev": 0.0008018237396706723,
+                "rounds": 1280,
+                "median": 0.0002618999860715121,
+                "iqr": 3.4200013033114374e-05,
+                "q1": 0.00025469998945482075,
+                "q3": 0.0002889000024879351,
+                "iqr_outliers": 111,
+                "stddev_outliers": 1,
+                "outliers": "1;111",
+                "ld15iqr": 0.00024759999359957874,
+                "hd15iqr": 0.0003403000009711832,
+                "ops": 3327.5733396556093,
+                "total": 0.3846646998717915,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_unfreq",
+            "name": "test_mongo_query_II_unfreq[love]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_unfreq[love]",
+            "params": {
+                "word": "love"
+            },
+            "param": "love",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024930000654421747,
+                "max": 0.0010152000177185982,
+                "mean": 0.0002738824617753707,
+                "stddev": 4.023273477862418e-05,
+                "rounds": 593,
+                "median": 0.0002615999837871641,
+                "iqr": 2.6224995963275433e-05,
+                "q1": 0.0002558999985922128,
+                "q3": 0.00028212499455548823,
+                "iqr_outliers": 47,
+                "stddev_outliers": 56,
+                "outliers": "56;47",
+                "ld15iqr": 0.00024930000654421747,
+                "hd15iqr": 0.0003215000033378601,
+                "ops": 3651.2012982421884,
+                "total": 0.16241229983279482,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_unfreq",
+            "name": "test_mongo_query_II_unfreq[asking]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_unfreq[asking]",
+            "params": {
+                "word": "asking"
+            },
+            "param": "asking",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00024920000578276813,
+                "max": 0.0006269000004976988,
+                "mean": 0.0002762060407968024,
+                "stddev": 3.492298943110926e-05,
+                "rounds": 1523,
+                "median": 0.0002624999906402081,
+                "iqr": 2.8600014047697186e-05,
+                "q1": 0.0002556999970693141,
+                "q3": 0.0002843000111170113,
+                "iqr_outliers": 115,
+                "stddev_outliers": 198,
+                "outliers": "198;115",
+                "ld15iqr": 0.00024920000578276813,
+                "hd15iqr": 0.0003274999908171594,
+                "ops": 3620.4856241202706,
+                "total": 0.42066180013353005,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_unfreq",
+            "name": "test_mongo_query_II_unfreq[blessing]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_unfreq[blessing]",
+            "params": {
+                "word": "blessing"
+            },
+            "param": "blessing",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0002491000050213188,
+                "max": 0.0004443999787326902,
+                "mean": 0.0002691476409543833,
+                "stddev": 2.471124683143934e-05,
+                "rounds": 1526,
+                "median": 0.00026000000070780516,
+                "iqr": 1.689998316578567e-05,
+                "q1": 0.00025450001703575253,
+                "q3": 0.0002714000002015382,
+                "iqr_outliers": 181,
+                "stddev_outliers": 202,
+                "outliers": "202;181",
+                "ld15iqr": 0.0002491000050213188,
+                "hd15iqr": 0.0002970999921672046,
+                "ops": 3715.43289940812,
+                "total": 0.4107193000963889,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_mongo_unfreq",
+            "name": "test_mongo_query_II_unfreq[knowing]",
+            "fullname": "tests/freq_test.py::test_mongo_query_II_unfreq[knowing]",
+            "params": {
+                "word": "knowing"
+            },
+            "param": "knowing",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0002491000050213188,
+                "max": 0.0011295000149402767,
+                "mean": 0.0003019730288575782,
+                "stddev": 8.72957798144265e-05,
+                "rounds": 1509,
+                "median": 0.0002719000040087849,
+                "iqr": 5.4449970775749534e-05,
+                "q1": 0.0002591000229585916,
+                "q3": 0.0003135499937343411,
+                "iqr_outliers": 104,
+                "stddev_outliers": 110,
+                "outliers": "110;104",
+                "ld15iqr": 0.0002491000050213188,
+                "hd15iqr": 0.0003989999822806567,
+                "ops": 3311.554027799077,
+                "total": 0.45567730054608546,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_unfreq",
+            "name": "test_neo_query_II_unfreq[With]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_unfreq[With]",
+            "params": {
+                "word": "With"
+            },
+            "param": "With",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0007861000194679946,
+                "max": 0.003791299997828901,
+                "mean": 0.0009643996410049236,
+                "stddev": 0.00022106957529071565,
+                "rounds": 556,
+                "median": 0.0009090499952435493,
+                "iqr": 0.00017674999253358692,
+                "q1": 0.0008356000034837052,
+                "q3": 0.0010123499960172921,
+                "iqr_outliers": 26,
+                "stddev_outliers": 47,
+                "outliers": "47;26",
+                "ld15iqr": 0.0007861000194679946,
+                "hd15iqr": 0.0013247999886516482,
+                "ops": 1036.914529497315,
+                "total": 0.5362062003987376,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_unfreq",
+            "name": "test_neo_query_II_unfreq[conscience]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_unfreq[conscience]",
+            "params": {
+                "word": "conscience"
+            },
+            "param": "conscience",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.000843899993924424,
+                "max": 0.006963099993299693,
+                "mean": 0.0011169311664090595,
+                "stddev": 0.0003966340550245408,
+                "rounds": 677,
+                "median": 0.0009955000132322311,
+                "iqr": 0.00025389999063918367,
+                "q1": 0.0009031500012497418,
+                "q3": 0.0011570499918889254,
+                "iqr_outliers": 72,
+                "stddev_outliers": 75,
+                "outliers": "75;72",
+                "ld15iqr": 0.000843899993924424,
+                "hd15iqr": 0.0015399999974761158,
+                "ops": 895.310319985972,
+                "total": 0.7561623996589333,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_unfreq",
+            "name": "test_neo_query_II_unfreq[sure]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_unfreq[sure]",
+            "params": {
+                "word": "sure"
+            },
+            "param": "sure",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0008368999988306314,
+                "max": 0.0039274000155273825,
+                "mean": 0.0009188455333185135,
+                "stddev": 0.00014723623909232477,
+                "rounds": 582,
+                "median": 0.0008822499949019402,
+                "iqr": 7.880001794546843e-05,
+                "q1": 0.0008617999847047031,
+                "q3": 0.0009406000026501715,
+                "iqr_outliers": 35,
+                "stddev_outliers": 32,
+                "outliers": "32;35",
+                "ld15iqr": 0.0008368999988306314,
+                "hd15iqr": 0.0010643000132404268,
+                "ops": 1088.3222084003478,
+                "total": 0.5347681003913749,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_unfreq",
+            "name": "test_neo_query_II_unfreq[reward]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_unfreq[reward]",
+            "params": {
+                "word": "reward"
+            },
+            "param": "reward",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0008326999959535897,
+                "max": 0.001705800008494407,
+                "mean": 0.0009185383625725959,
+                "stddev": 9.978496699869117e-05,
+                "rounds": 696,
+                "median": 0.0008802499942248687,
+                "iqr": 9.015000250656158e-05,
+                "q1": 0.00085860000399407,
+                "q3": 0.0009487500065006316,
+                "iqr_outliers": 37,
+                "stddev_outliers": 77,
+                "outliers": "77;37",
+                "ld15iqr": 0.0008326999959535897,
+                "hd15iqr": 0.0010840000177267939,
+                "ops": 1088.6861569932153,
+                "total": 0.6393027003505267,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_unfreq",
+            "name": "test_neo_query_II_unfreq[judge]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_unfreq[judge]",
+            "params": {
+                "word": "judge"
+            },
+            "param": "judge",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.000819500011857599,
+                "max": 0.0036964000028092414,
+                "mean": 0.0009297001480352194,
+                "stddev": 0.0001835544537693121,
+                "rounds": 674,
+                "median": 0.0008712499984540045,
+                "iqr": 8.609998621977866e-05,
+                "q1": 0.0008546000171918422,
+                "q3": 0.0009407000034116209,
+                "iqr_outliers": 55,
+                "stddev_outliers": 46,
+                "outliers": "46;55",
+                "ld15iqr": 0.000819500011857599,
+                "hd15iqr": 0.001070600003004074,
+                "ops": 1075.6156187705774,
+                "total": 0.6266178997757379,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_unfreq",
+            "name": "test_neo_query_II_unfreq[lead]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_unfreq[lead]",
+            "params": {
+                "word": "lead"
+            },
+            "param": "lead",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0008400999940931797,
+                "max": 0.0013996000052429736,
+                "mean": 0.0009623372297769842,
+                "stddev": 0.00010056858963734389,
+                "rounds": 650,
+                "median": 0.0009269499860238284,
+                "iqr": 0.00011510000331327319,
+                "q1": 0.0008868000004440546,
+                "q3": 0.0010019000037573278,
+                "iqr_outliers": 38,
+                "stddev_outliers": 135,
+                "outliers": "135;38",
+                "ld15iqr": 0.0008400999940931797,
+                "hd15iqr": 0.0011767999967560172,
+                "ops": 1039.1367693752677,
+                "total": 0.6255191993550397,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_unfreq",
+            "name": "test_neo_query_II_unfreq[love]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_unfreq[love]",
+            "params": {
+                "word": "love"
+            },
+            "param": "love",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0008453000045847148,
+                "max": 0.003604999976232648,
+                "mean": 0.0009610488271863743,
+                "stddev": 0.00013695891580941196,
+                "rounds": 682,
+                "median": 0.0009346000151708722,
+                "iqr": 0.00010740000288933516,
+                "q1": 0.0008900999964680523,
+                "q3": 0.0009974999993573874,
+                "iqr_outliers": 25,
+                "stddev_outliers": 48,
+                "outliers": "48;25",
+                "ld15iqr": 0.0008453000045847148,
+                "hd15iqr": 0.0011588000052142888,
+                "ops": 1040.529858329531,
+                "total": 0.6554353001411073,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_unfreq",
+            "name": "test_neo_query_II_unfreq[asking]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_unfreq[asking]",
+            "params": {
+                "word": "asking"
+            },
+            "param": "asking",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0008396999910473824,
+                "max": 0.0017202000017277896,
+                "mean": 0.0009739592655907906,
+                "stddev": 0.00012646965129230168,
+                "rounds": 545,
+                "median": 0.0009372999775223434,
+                "iqr": 0.00013285000750329345,
+                "q1": 0.0008855249980115332,
+                "q3": 0.0010183750055148266,
+                "iqr_outliers": 31,
+                "stddev_outliers": 79,
+                "outliers": "79;31",
+                "ld15iqr": 0.0008396999910473824,
+                "hd15iqr": 0.0012322999828029424,
+                "ops": 1026.7369851380934,
+                "total": 0.5308077997469809,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_unfreq",
+            "name": "test_neo_query_II_unfreq[blessing]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_unfreq[blessing]",
+            "params": {
+                "word": "blessing"
+            },
+            "param": "blessing",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0008387999841943383,
+                "max": 0.0036680999910458922,
+                "mean": 0.000992454530817794,
+                "stddev": 0.0002183689295059704,
+                "rounds": 618,
+                "median": 0.0009099000017158687,
+                "iqr": 0.0001331999956164509,
+                "q1": 0.0008772000146564096,
+                "q3": 0.0010104000102728605,
+                "iqr_outliers": 68,
+                "stddev_outliers": 68,
+                "outliers": "68;68",
+                "ld15iqr": 0.0008387999841943383,
+                "hd15iqr": 0.00121640000725165,
+                "ops": 1007.6028361480584,
+                "total": 0.6133369000453968,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "query_neo4j_unfreq",
+            "name": "test_neo_query_II_unfreq[knowing]",
+            "fullname": "tests/freq_test.py::test_neo_query_II_unfreq[knowing]",
+            "params": {
+                "word": "knowing"
+            },
+            "param": "knowing",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0008470999891869724,
+                "max": 0.003797700017457828,
+                "mean": 0.0012944189928716062,
+                "stddev": 0.00045096442278547177,
+                "rounds": 437,
+                "median": 0.0011409999860916287,
+                "iqr": 0.0005214500051806681,
+                "q1": 0.0009653749948483892,
+                "q3": 0.0014868250000290573,
+                "iqr_outliers": 21,
+                "stddev_outliers": 63,
+                "outliers": "63;21",
+                "ld15iqr": 0.0008470999891869724,
+                "hd15iqr": 0.00230239998199977,
+                "ops": 772.5473787908104,
+                "total": 0.5656610998848919,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2024-10-12T14:18:00.318021",
+    "version": "4.0.0"
+}
