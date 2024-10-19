@@ -1,0 +1,3 @@
+Presentation link: https://view.genially.com/670829292d390fb70f4f1a2c/presentation-search-engine
+
+Github link: https://github.com/BeepBoopVictor/Search_Engine
