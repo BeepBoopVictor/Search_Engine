@@ -10,6 +10,7 @@ async def search_author(author: str):
     Author search.
     """
     results = search_by_author(author)
+    print(results)
     if results:
         return {"results": results}
     else:
@@ -20,6 +21,7 @@ async def search_date(date: str):
     """
     Date search.
     """
+    print(date)
     results = search_by_date(date)
     if results:
         return {"results": results}

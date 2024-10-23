@@ -9,6 +9,7 @@ driver      = GraphDatabase.driver(uri, auth=(user, password))
 
 def inverted_index_store_neo4j(inverted: dict):
     with driver.session(database="invertedindex") as session:
+        #session.run("MATCH (n) DETACH DELETE n")
         for word, docs in inverted.items():
             for title, positions in docs.items():
                 try:

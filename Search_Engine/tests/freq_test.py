@@ -22,7 +22,7 @@ def process_documents_from_folder(folder_path):
             documents[file_name] = content
     return documents
 
-book = process_documents_from_folder("..\\datalake\\20241019") # Load correct date
+book = process_documents_from_folder("..\\datalake\\20241023") # Load correct date
 
 ii = invertedIndex(book)
 

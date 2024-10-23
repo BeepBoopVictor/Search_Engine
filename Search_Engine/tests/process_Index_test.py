@@ -24,7 +24,7 @@ def process_documents_from_folder(folder_path):
 
 @pytest.fixture
 def books():
-    return process_documents_from_folder("..\\datalake\\20241019")
+    return process_documents_from_folder("..\\datalake\\20241023")
 
 @pytest.fixture
 def ii(books):

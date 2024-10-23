@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 router_m = APIRouter()
 
 
-metadata = load_from_txt("datamart\\metadata.txt")
+metadata = "datamart\\metadata.txt"
 
 
 @router_m.get("/search/author/")

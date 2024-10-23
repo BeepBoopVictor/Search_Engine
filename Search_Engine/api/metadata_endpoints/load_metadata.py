@@ -50,7 +50,7 @@ def load_from_neo4j(uri, user, password) -> dict:
 
 def load_from_txt(file_path):
     metadata = {}
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', errors='ignore') as file:
         for line in file:
             line_data = ast.literal_eval(line.strip())
             metadata.update(line_data)

@@ -8,6 +8,7 @@ inverted_index      = db["invertedindex"]  # inverted_index Collection
 
 
 def inverted_index_from_mongodb(inverted_index_dict: dict):
+    #inverted_index.delete_many({})
     for word, files in inverted_index_dict.items():
         for file_id, positions in files.items():
             # Updates or inserts the inverted index

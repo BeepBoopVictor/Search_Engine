@@ -2,6 +2,9 @@ import os, ast
 
 def inverted_index_txt_store(inverted: dict, file: str):
     # Check if the inverted index is empty
+    #with open(file, 'w') as f:
+    #    f.truncate()  # Clear the content of the file
+
     if not inverted:
         print("The inverted index is empty. Nothing will be written.")
         return
